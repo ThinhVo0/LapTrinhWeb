@@ -94,11 +94,11 @@
             <button type="button" class="btn cancelbtn btn-login">Cancel</button>
 
             <div class="psw">
-                <span>Forgot <a href="#">password?</a></span>
+                <span>Forgot <a href="http://localhost:8080/LTWEB/views/forgotpass.jsp">password?</a></span>
             </div>
 
             <div class="signup-link">
-                Don't have an account? <a href="./views/signup.jsp">Sign Up here</a>
+                Don't have an account? <a href="http://localhost:8080/LTWEB/views/signup.jsp">Sign Up here</a>
             </div>
         </form>
     </div>

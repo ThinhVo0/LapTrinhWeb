@@ -24,12 +24,12 @@ public class UserService implements IUserService {
 
     @Override
     public UserModel findByUsernameAndEmail(String username, String email) {
-        return null;
+        return userDao.findByUsernameAndEmail(username, email);
     }
 
     @Override
     public boolean updatePassword(String username, String newPassword) {
-        return false;
+        return userDao.updatePassword(username, newPassword);
     }
 
     public boolean register(String username, String email,String
