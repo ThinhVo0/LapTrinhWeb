@@ -1,18 +1,19 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 9/9/2024
-  Time: 9:37 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <c:if test="${msg == true}">Xin chào ${username}</c:if>
-  <c:if test="${msg == false}">Cook ${username}</c:if>
+<div class="container">
+    <h1>MANAGER</h1>
+    <form action="${pageContext.request.contextPath}/logout" method="get">
+        <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+</div>
 </body>
 </html>

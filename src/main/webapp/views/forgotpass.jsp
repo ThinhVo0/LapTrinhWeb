@@ -92,7 +92,7 @@
 
     <!-- Back to login link -->
     <div class="back-login-link">
-      <p class="small">Back to <a href="./login.jsp">Login</a></p>
+      <p class="small">Back to <a href="./login">Login</a></p>
     </div>
 
   </form>

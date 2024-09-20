@@ -66,7 +66,7 @@
 <div class="container">
     <div class="login-container">
 
-        <form action="./login" method="post">
+        <form action="http://localhost:8080/LTWEB/login" method="post">
             <c:if test="${alert != null}">
                 <div class="alert alert-danger" role="alert">
                         ${alert}
@@ -94,11 +94,11 @@
             <button type="button" class="btn cancelbtn btn-login">Cancel</button>
 
             <div class="psw">
-                <span>Forgot <a href="http://localhost:8080/LTWEB/views/forgotpass.jsp">password?</a></span>
+                <span><a href="./forgotpassword">Forgot password?</a></span>
             </div>
 
             <div class="signup-link">
-                Don't have an account? <a href="http://localhost:8080/LTWEB/views/signup.jsp">Sign Up here</a>
+                Don't have an account? <a href="./signup">Sign Up here</a>
             </div>
         </form>
     </div>

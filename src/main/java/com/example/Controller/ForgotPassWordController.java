@@ -35,6 +35,7 @@ public class ForgotPassWordController extends HttpServlet {
                 msg = "Đổi mật khẩu thất bại";
         }
 
+
 // Sử dụng biến msg để phản hồi hoặc hiển thị thông báo cho người dùng
         System.out.println(msg);
         req.setAttribute("alert", msg);
@@ -43,5 +44,11 @@ public class ForgotPassWordController extends HttpServlet {
         req.getRequestDispatcher("views/login.jsp").forward(req, res);
 
 
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        req.getRequestDispatcher("views/forgotpass.jsp").forward(req, resp);
     }
 }

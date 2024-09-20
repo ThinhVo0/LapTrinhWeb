@@ -854,3 +854,261 @@
  java.base/java.lang.Thread.run(Thread.java:1570)
 19-Sep-2024 17:08:19.172 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 19-Sep-2024 17:08:19.191 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:08:24.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+19-Sep-2024 17:08:24.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+19-Sep-2024 17:08:24.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+19-Sep-2024 17:08:24.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Sep-2024 17:08:24.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+19-Sep-2024 17:08:24.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Sep-2024 17:08:24.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=56239:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+19-Sep-2024 17:08:24.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Sep-2024 17:08:24.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+19-Sep-2024 17:08:24.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+19-Sep-2024 17:08:24.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+19-Sep-2024 17:08:24.870 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+19-Sep-2024 17:08:25.476 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:08:25.518 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1108] milliseconds
+19-Sep-2024 17:08:25.615 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Sep-2024 17:08:25.616 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+19-Sep-2024 17:08:25.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+19-Sep-2024 17:08:28.055 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Sep-2024 17:08:28.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [2,572] ms
+19-Sep-2024 17:08:28.215 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:08:28.256 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2731] milliseconds
+19-Sep-2024 17:23:03.173 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:23:03.184 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Sep-2024 17:23:03.199 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:23:03.221 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:23:07.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+19-Sep-2024 17:23:07.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+19-Sep-2024 17:23:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+19-Sep-2024 17:23:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Sep-2024 17:23:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Sep-2024 17:23:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Sep-2024 17:23:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+19-Sep-2024 17:23:07.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+19-Sep-2024 17:23:07.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Sep-2024 17:23:07.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+19-Sep-2024 17:23:07.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:23:07.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Sep-2024 17:23:07.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Sep-2024 17:23:07.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Sep-2024 17:23:07.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Sep-2024 17:23:07.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Sep-2024 17:23:07.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:23:07.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+19-Sep-2024 17:23:07.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+19-Sep-2024 17:23:07.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+19-Sep-2024 17:23:07.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2024 17:23:07.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=56342:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+19-Sep-2024 17:23:07.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Sep-2024 17:23:07.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+19-Sep-2024 17:23:07.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+19-Sep-2024 17:23:07.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+19-Sep-2024 17:23:07.942 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+19-Sep-2024 17:23:08.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:23:08.613 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1162] milliseconds
+19-Sep-2024 17:23:08.704 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Sep-2024 17:23:08.705 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+19-Sep-2024 17:23:08.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+19-Sep-2024 17:23:11.386 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Sep-2024 17:23:11.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [2,825] ms
+19-Sep-2024 17:23:11.554 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:23:11.588 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2971] milliseconds
+19-Sep-2024 17:24:24.292 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:24:24.307 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Sep-2024 17:24:24.322 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:24:24.323 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:24:24.324 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+19-Sep-2024 17:24:24.349 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:24:24.360 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:24:27.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+19-Sep-2024 17:24:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+19-Sep-2024 17:24:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+19-Sep-2024 17:24:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Sep-2024 17:24:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Sep-2024 17:24:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Sep-2024 17:24:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+19-Sep-2024 17:24:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+19-Sep-2024 17:24:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Sep-2024 17:24:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+19-Sep-2024 17:24:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:24:27.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:24:27.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+19-Sep-2024 17:24:27.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+19-Sep-2024 17:24:27.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+19-Sep-2024 17:24:27.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2024 17:24:27.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=56356:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+19-Sep-2024 17:24:27.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Sep-2024 17:24:27.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+19-Sep-2024 17:24:27.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+19-Sep-2024 17:24:27.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+19-Sep-2024 17:24:27.259 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+19-Sep-2024 17:24:27.885 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:24:27.925 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1129] milliseconds
+19-Sep-2024 17:24:28.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Sep-2024 17:24:28.017 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+19-Sep-2024 17:24:28.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+19-Sep-2024 17:24:30.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Sep-2024 17:24:31.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [3,052] ms
+19-Sep-2024 17:24:31.099 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:24:31.509 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3581] milliseconds
+19-Sep-2024 17:26:23.484 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:26:23.495 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Sep-2024 17:26:23.503 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:26:23.503 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:26:23.503 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:26:23.503 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:26:23.504 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+19-Sep-2024 17:26:23.512 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:26:23.530 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:26:26.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+19-Sep-2024 17:26:26.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+19-Sep-2024 17:26:26.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+19-Sep-2024 17:26:26.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Sep-2024 17:26:26.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Sep-2024 17:26:26.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Sep-2024 17:26:26.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+19-Sep-2024 17:26:26.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+19-Sep-2024 17:26:26.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Sep-2024 17:26:26.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+19-Sep-2024 17:26:26.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:26:26.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2024 17:26:26.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=56405:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+19-Sep-2024 17:26:26.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Sep-2024 17:26:26.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+19-Sep-2024 17:26:26.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+19-Sep-2024 17:26:26.416 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+19-Sep-2024 17:26:26.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+19-Sep-2024 17:26:27.073 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:26:27.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1144] milliseconds
+19-Sep-2024 17:26:27.205 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Sep-2024 17:26:27.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+19-Sep-2024 17:26:27.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+19-Sep-2024 17:26:29.697 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Sep-2024 17:26:29.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [2,621] ms
+19-Sep-2024 17:26:29.851 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:26:29.887 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2770] milliseconds
+19-Sep-2024 17:30:30.122 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:30:30.137 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Sep-2024 17:30:30.145 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:30:30.145 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:30:30.145 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:30:30.146 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+19-Sep-2024 17:30:30.154 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:30:30.172 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:30:34.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+19-Sep-2024 17:30:34.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+19-Sep-2024 17:30:34.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+19-Sep-2024 17:30:34.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Sep-2024 17:30:34.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Sep-2024 17:30:34.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Sep-2024 17:30:34.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+19-Sep-2024 17:30:34.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+19-Sep-2024 17:30:34.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Sep-2024 17:30:34.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+19-Sep-2024 17:30:34.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:30:34.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Sep-2024 17:30:34.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+19-Sep-2024 17:30:34.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=56440:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+19-Sep-2024 17:30:34.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+19-Sep-2024 17:30:34.498 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+19-Sep-2024 17:30:34.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+19-Sep-2024 17:30:35.173 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:30:35.213 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1180] milliseconds
+19-Sep-2024 17:30:35.308 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Sep-2024 17:30:35.309 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+19-Sep-2024 17:30:35.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+19-Sep-2024 17:30:37.933 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Sep-2024 17:30:38.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [2,748] ms
+19-Sep-2024 17:30:38.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:30:38.131 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2915] milliseconds
+19-Sep-2024 17:33:04.713 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:33:04.722 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Sep-2024 17:33:04.728 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:33:04.729 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:33:04.729 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:33:04.729 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:33:04.729 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Sep-2024 17:33:04.729 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+19-Sep-2024 17:33:04.736 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Sep-2024 17:33:04.748 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

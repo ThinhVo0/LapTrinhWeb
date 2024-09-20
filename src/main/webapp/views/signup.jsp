@@ -78,7 +78,7 @@
             <button type="submit" class="btn btn-primary btn-signup">Sign Up</button>
 
             <div class="login-link">
-                Already have an account? <a href="http://localhost:8080/LTWEB/">Login here</a>
+                Already have an account? <a href="./login">Login here</a>
             </div>
         </form>
     </div>
