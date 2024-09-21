@@ -7,5 +7,8 @@ public interface IUserService {
     UserModel findByUsername(String username);
     UserModel findByUsernameAndEmail(String username, String email);
     boolean updatePassword(String username,String newPassword);
-    void insert(UserModel user);
+    boolean checkExistEmail(String email);
+    boolean checkExistUsername(String username);
+
+    boolean register(String username, String email, String password, int i);
 }

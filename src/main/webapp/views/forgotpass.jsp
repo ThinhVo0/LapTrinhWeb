@@ -52,14 +52,10 @@
 
   <h3>Forgot Password</h3>
 
-  <form action="http://localhost:8080/LTWEB/forgotpassword" method="post">
+  <form action="http://localhost:8080/LTWEB/forgotpassword" method="post" id="resetPasswordForm">
 
     <!-- Alert if needed -->
-    <c:if test="${alert != null}">
-      <div class="alert alert-danger" role="alert">
-          ${alert}
-      </div>
-    </c:if>
+    <div id="error-message" class="alert alert-danger" role="alert" style="display:none;"></div>
 
     <!-- Username input -->
     <div class="mb-3">
@@ -98,6 +94,23 @@
   </form>
 
 </div>
+
+<script>
+  document.getElementById('resetPasswordForm').addEventListener('submit', function(event) {
+    const newPassword = document.getElementById('new_psw').value;
+    const confirmPassword = document.getElementById('confirm_new_psw').value;
+    const errorMessageDiv = document.getElementById('error-message');
+
+    if (newPassword !== confirmPassword) {
+      event.preventDefault(); // Ngăn không cho form submit
+      errorMessageDiv.textContent = 'Confirm New Password does not match with New Password.';
+      errorMessageDiv.style.display = 'block'; // Hiển thị lỗi
+    } else {
+      errorMessageDiv.style.display = 'none'; // Ẩn lỗi nếu khớp
+    }
+  });
+</script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -69,7 +69,7 @@ public class UserDaoImpl extends mydb implements IUserDao {
         }
         return null;
     }
-
+    @Override
     public void insert(UserModel user) {
         String sql = "INSERT INTO users(username, password,email, roleid) VALUES(?,?,?,?)";
         try {
@@ -109,6 +109,7 @@ public class UserDaoImpl extends mydb implements IUserDao {
         }
         return null;
     }
+    @Override
     public boolean checkExistUsername(String username) {
         boolean duplicate = false;
         String query = "select * from Users where username = ?";
@@ -125,7 +126,7 @@ public class UserDaoImpl extends mydb implements IUserDao {
         } catch (Exception ex) {}
         return duplicate;
     }
-
+    @Override
     public UserModel findByUsernameAndEmail(String username, String email) {
         String sql = "SELECT * FROM users WHERE username = ? AND email = ?";
         Connection con = null;

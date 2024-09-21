@@ -94,7 +94,7 @@
             <button type="button" class="btn cancelbtn btn-login">Cancel</button>
 
             <div class="psw">
-                <span><a href="./forgotpassword">Forgot password?</a></span>
+                <span><a href="http://localhost:8080/LTWEB/forgotpassword">Forgot password?</a></span>
             </div>
 
             <div class="signup-link">

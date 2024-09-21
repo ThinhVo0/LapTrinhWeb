@@ -31,7 +31,7 @@ public class UserService implements IUserService {
     public boolean updatePassword(String username, String newPassword) {
         return userDao.updatePassword(username, newPassword);
     }
-
+    @Override
     public boolean register(String username, String email,String
             password,int  roleid) {
         if (userDao.checkExistUsername(username)) {
@@ -42,14 +42,13 @@ public class UserService implements IUserService {
         userDao.insert(new UserModel(username,email,password,roleid));
         return true;
     }
+    @Override
     public boolean checkExistEmail(String email) {
         return userDao.checkExistEmail(email);
     }
+    @Override
     public boolean checkExistUsername(String username) {
         return userDao.checkExistUsername(username);
     }
 
-    public void insert(UserModel user) {
-        userDao.insert(user);
-    }
 }

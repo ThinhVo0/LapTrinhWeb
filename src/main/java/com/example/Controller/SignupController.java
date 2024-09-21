@@ -40,7 +40,7 @@ public class SignupController extends HttpServlet {
         String password = req.getParameter("password");
         String email = req.getParameter("email");
         String fullname = req.getParameter("fullname");
-        UserService service = new UserService();
+        IUserService service = new UserService();
         String alertMsg = "";
         if (service.checkExistEmail(email)) {
             alertMsg = "Email đã tồn tại!";
