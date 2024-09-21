@@ -98,7 +98,7 @@
             </div>
 
             <div class="signup-link">
-                Don't have an account? <a href="./signup">Sign Up here</a>
+                Don't have an account? <a href="http://localhost:8080/LTWEB/signup">Sign Up here</a>
             </div>
         </form>
     </div>

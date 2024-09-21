@@ -46,13 +46,19 @@
         .login-link a:hover {
             text-decoration: underline;
         }
+        .error {
+            color: red;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="signup-container">
-        <form action="http://localhost:8080/LTWEB/signup" method="post">
+        <form name="signupForm" action="http://localhost:8080/LTWEB/signup" method="post" id="signupForm">
             <h2>Sign Up</h2>
 
             <div class="form-group">
@@ -67,13 +73,15 @@
 
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" class="form-control" placeholder="Enter Password" name="password" required>
+                <input type="password" id="password" class="form-control" placeholder="Enter Password" name="password" required>
             </div>
 
             <div class="form-group">
                 <label>Repeat Password</label>
-                <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" required>
+                <input type="password" id="repeatPassword" class="form-control" placeholder="Repeat Password" name="psw-repeat" required>
             </div>
+
+            <div id="error-message" class="alert alert-danger" role="alert" style="display:none;"></div>
 
             <button type="submit" class="btn btn-primary btn-signup">Sign Up</button>
 
@@ -84,5 +92,22 @@
     </div>
 </div>
 
+<script>
+    document.getElementById('signupForm').addEventListener('submit', function(event) {
+        const password = document.getElementById('password').value;
+        const repeatPassword = document.getElementById('repeatPassword').value;
+        const errorMessageDiv = document.getElementById('error-message');
+
+        if (password !== repeatPassword) {
+            event.preventDefault(); // Ngăn không cho form submit
+            errorMessageDiv.textContent = 'Passwords do not match!';
+            errorMessageDiv.style.display = 'block'; // Hiển thị lỗi
+        } else {
+            errorMessageDiv.style.display = 'none'; // Ẩn lỗi nếu khớp
+        }
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
