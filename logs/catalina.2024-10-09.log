@@ -1,0 +1,137 @@
+09-Oct-2024 08:10:32.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 08:10:32.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 08:10:32.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 08:10:32.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Oct-2024 08:10:32.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 08:10:32.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 08:10:32.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+09-Oct-2024 08:10:32.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 08:10:32.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 08:10:32.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+09-Oct-2024 08:10:32.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 08:10:32.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 08:10:32.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 08:10:32.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 08:10:32.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 08:10:32.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 08:10:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=52710:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+09-Oct-2024 08:10:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 08:10:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 08:10:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 08:10:32.992 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 08:10:33.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 08:10:33.895 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:10:33.942 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1455] milliseconds
+09-Oct-2024 08:10:34.084 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 08:10:34.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 08:10:34.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+09-Oct-2024 08:10:37.355 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 08:10:37.580 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 08:10:37.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [3,492] ms
+09-Oct-2024 08:10:37.627 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:10:37.672 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3727] milliseconds
+09-Oct-2024 08:42:37.079 SEVERE [http-nio-8080-exec-7] org.sitemesh.webapp.WebAppContext.decorate Error 404 processing decorator '/WEB-INF/decorators/dangnhap.jsp'
+09-Oct-2024 08:52:20.120 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:52:20.132 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 08:52:20.152 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:52:20.161 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:52:25.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 08:52:25.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 08:52:25.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 08:52:25.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 08:52:25.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+09-Oct-2024 08:52:25.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 08:52:25.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+09-Oct-2024 08:52:25.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=59968:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 08:52:25.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 08:52:25.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 08:52:25.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 08:52:26.679 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:52:26.723 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1690] milliseconds
+09-Oct-2024 08:52:26.823 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 08:52:26.824 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 08:52:26.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+09-Oct-2024 08:52:31.012 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 08:52:31.250 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 08:52:31.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [4,441] ms
+09-Oct-2024 08:52:31.296 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 08:52:31.351 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4626] milliseconds
+09-Oct-2024 09:02:31.598 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:02:31.610 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 09:02:31.618 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 09:02:31.619 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWEB] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 09:02:31.619 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWEB] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 09:02:31.631 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:02:31.638 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:02:35.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 09:02:35.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 09:02:35.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 09:02:35.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Oct-2024 09:02:35.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 09:02:35.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 09:02:35.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Admin\.jdks\openjdk-22.0.2
+09-Oct-2024 09:02:35.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 09:02:35.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 09:02:35.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\test\LTWEB
+09-Oct-2024 09:02:35.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 09:02:35.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 09:02:35.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 09:02:35.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 09:02:35.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 09:02:35.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 09:02:35.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\IntelliJ\apache-tomcat-10.1.28
+09-Oct-2024 09:02:35.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\test\LTWEB
+09-Oct-2024 09:02:35.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\test\LTWEB\temp
+09-Oct-2024 09:02:35.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\test\LTWEB\conf\logging.properties
+09-Oct-2024 09:02:35.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 09:02:35.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=60134:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+09-Oct-2024 09:02:35.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 09:02:35.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 09:02:35.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 09:02:35.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 09:02:35.429 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 09:02:36.058 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:02:36.101 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1161] milliseconds
+09-Oct-2024 09:02:36.195 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 09:02:36.195 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 09:02:36.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml]
+09-Oct-2024 09:02:38.874 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 09:02:39.102 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 09:02:39.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\test\LTWEB\conf\Catalina\localhost\LTWEB.xml] has finished in [2,923] ms
+09-Oct-2024 09:02:39.148 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:02:39.195 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3091] milliseconds
+09-Oct-2024 09:06:30.819 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:06:30.830 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 09:06:30.844 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 09:06:30.860 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

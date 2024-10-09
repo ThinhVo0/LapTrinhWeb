@@ -2,6 +2,7 @@
 <Context docBase="C:\test\LTWEB\src\main\webapp">
   <Resources cacheMaxSize="10240">
     <PreResources base="C:/test/LTWEB/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/Admin/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-io-2.17.0.jar"/>
     <PostResources base="C:/Users/Admin/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.2.jar"/>
     <PostResources base="C:/Users/Admin/.m2/repository/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.el-api-5.0.0.jar"/>
     <PostResources base="C:/Users/Admin/.m2/repository/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar"/>
@@ -9,5 +10,6 @@
     <PostResources base="C:/Users/Admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/error_prone_annotations-2.27.0.jar"/>
     <PostResources base="C:/Users/Admin/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.0.33.jar"/>
     <PostResources base="C:/Users/Admin/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.21.9.jar"/>
+    <PostResources base="C:/Users/Admin/.m2/repository/org/sitemesh/sitemesh/3.2.1/sitemesh-3.2.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/sitemesh-3.2.1.jar"/>
   </Resources>
 </Context>

@@ -1,18 +1,25 @@
 package com.example.Model;
 
-import java.io.Serial;
 import java.io.Serializable;
 import java.sql.Date;
 
-public class UserModel {
+public class UserModel implements Serializable {
     private static final long serialVersionUID = 1L;
+
     private int id;
     private String username;
     private String password;
+    private String images;
+    private String fullname;
+    private String email;
+    private String phone;
+    private int roleid;
+    private Date createDate;
 
+    // Constructors
     public UserModel() {}
 
-    public UserModel(String username, String email, String password, int roleid){
+    public UserModel(String username, String email, String password, int roleid) {
         this.password = password;
         this.email = email;
         this.roleid = roleid;
@@ -30,13 +37,19 @@ public class UserModel {
         this.id = id;
     }
 
-    private String images;
-    private String fullname;
-    private String email;
-    private String phone;
-    private int roleid;
-    private Date createDate;
+    public UserModel(int id, String username, String password, String images, String fullname, String email, String phone, int roleid, Date createDate) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.images = images;
+        this.fullname = fullname;
+        this.email = email;
+        this.phone = phone;
+        this.roleid = roleid;
+        this.createDate = createDate;
+    }
 
+    // Getters and Setters
     public int getId() {
         return id;
     }
@@ -67,21 +80,6 @@ public class UserModel {
 
     public void setImages(String images) {
         this.images = images;
-    }
-
-    @Override
-    public String toString() {
-        return "UserModel{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", images='" + images + '\'' +
-                ", fullname='" + fullname + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", roleid=" + roleid +
-                ", createDate=" + createDate +
-                '}';
     }
 
     public String getFullname() {
@@ -124,15 +122,19 @@ public class UserModel {
         this.createDate = createDate;
     }
 
-    public UserModel(int id, String username, String password, String images, String fullname, String email, String phone, int roleid, Date createDate) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.images = images;
-        this.fullname = fullname;
-        this.email = email;
-        this.phone = phone;
-        this.roleid = roleid;
-        this.createDate = createDate;
+    // Override toString
+    @Override
+    public String toString() {
+        return "UserModel{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", images='" + images + '\'' +
+                ", fullname='" + fullname + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", roleid=" + roleid +
+                ", createDate=" + createDate +
+                '}';
     }
 }
